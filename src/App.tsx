@@ -1,6 +1,6 @@
-//import { FilterBar } from "./components/FilterBar";
+import { FilterBar } from "./components/FilterBar";
 //import { Header } from "./components/Header";
-//import { ProductsList } from "./components/ProductsList";
+import { ProductsList } from "./components/ProductsList";
 //import { CartPage } from "./components/CardPage";
 import { Header } from "./components/Header";
 //import { Product } from "./components/Product";
@@ -12,9 +12,9 @@ export function App() {
       <GlobalStyle />
       <Header />
       {/*<CartPage />
-      <Product />
+      <Product />*/}
       <FilterBar />
-      <ProductsList />*/}
+      <ProductsList />
     </>
   )
 }
